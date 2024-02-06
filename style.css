@@ -320,20 +320,21 @@ video {
   background-color: #000;
 }
 
-.logo__img {
-  width: 169px;
-}
-
 .banner {
   padding-top: 17px;
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.logo__img {
+  width: 140px;
 }
 
 .title {
-  font-size: 128px;
+  font-size: 90px;
   background: linear-gradient(
     to right,
     #d61f1f,
@@ -387,6 +388,7 @@ video {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 30px;
+  flex-direction: column;
 }
 
 .text {
@@ -395,10 +397,13 @@ video {
 
 .input {
   position: relative;
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   height: 100px;
   color: #fff;
   background: #000;
+  display: flex;
+  margin-bottom: 30px;
   background-clip: padding-box;
   /* border: solid 5px transparent; */
 }
@@ -413,8 +418,8 @@ input {
   bottom: 0;
   z-index: 2;
   outline: none;
-  padding: 28px 25px;
-  font-size: 40px;
+  padding: 10px 20px;
+  font-size: 25px;
 }
 
 input::placeholder {
@@ -469,7 +474,7 @@ h2 {
 }
 
 h3.title {
-  font-size: 120px;
+  font-size: 70px;
   background-color: #000;
 
   /* margin-inline: auto; */
@@ -525,10 +530,66 @@ h3.title {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 50px;
+  gap: 50px;
+  padding: 30px;
+  flex-wrap: wrap;
   border-block: 7px solid #fff;
 }
 
-img[alt="r"] {
+.socials img {
+  width: 90px;
+}
+
+/* img[alt="r"] {
   margin-right: 70px;
+} */
+
+button img {
+  width: 70px;
+}
+
+@media (min-width: 375px) {
+  .text2,
+  .ca {
+    padding-inline: 2rem;
+  }
+}
+
+@media (min-width: 425px) {
+  input {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 580px) {
+  .banner {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 110px;
+  }
+
+  .input-holder {
+    flex-direction: row;
+  }
+
+  h3.title {
+    font-size: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 120px;
+  }
+
+  .logo__img {
+    width: 160px;
+  }
+  h3.title {
+    font-size: 120px;
+  }
 }
