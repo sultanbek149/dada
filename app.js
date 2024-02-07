@@ -18,12 +18,18 @@ const points = document.querySelector('#points')
 
 localStorage.setItem('wallet', JSON.stringify([{ address: '47QqZexAkqBY74qnHWYguGBXDE5GzcWWjmQdLxe8JreS', points: 1000 }]))
 
+if (!localStorage.getItem('wallet')) {
+    localStorage.setItem('wallet', JSON.stringify([{ address: '47QqZexAkqBY74qnHWYguGBXDE5GzcWWjmQdLxe8JreS', points: 1000 }]))
+}
+
+
 ell.onclick = () => {
     const walletValue = wallet.value.trim()
     let exist = false
 
 
     if (!localStorage.hasOwnProperty('wallet')) {
+        if (walletValue === "") return
         localStorage.setItem('wallet', JSON.stringify([{ address: walletValue, points: 0 }]))
 
         points.innerHTML = 0
@@ -35,7 +41,7 @@ ell.onclick = () => {
 
     data.forEach(item => {
         if (item.address === walletValue) {
-            item.points = item.points + 1;
+            // item.points = item.points + 1;
 
             localStorage.setItem('wallet', JSON.stringify(data))
             points.innerHTML = item.points
