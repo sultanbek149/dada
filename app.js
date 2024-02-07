@@ -40,8 +40,17 @@
 
 // cont.style.backgroundRepeat = 'no-repeat';
 
+const imgs = document.querySelectorAll('.img')
 
+const img = document.querySelector('.img1')
 
+anime({
+    targets: '.img',
+    translateY: -50,
+    direction: 'alternate',
+    loop: true,
+    easing: 'linear'
+});
 
 const ell = document.querySelector('#ell')
 const wallet = document.querySelector('#input-wallet')

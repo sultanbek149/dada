@@ -458,6 +458,290 @@ h2 {
 
 .cont {
   padding-bottom: 120px;
+  position: relative;
+}
+
+.img {
+  position: absolute;
+}
+
+.img1 {
+  top: 0;
+  left: 10%;
+}
+
+.img2 {
+  top: 2%;
+  left: 3%;
+}
+
+.img3 {
+  top: 15%;
+  left: 10%;
+}
+
+.img4 {
+  top: 25%;
+  left: 15%;
+}
+
+.img5 {
+  top: 25%;
+  left: 90%;
+}
+
+.img6 {
+  top: 35%;
+  left: 85%;
+}
+
+.img7 {
+  top: 25%;
+  left: 5%;
+}
+
+.img8 {
+  top: 25%;
+  left: 15%;
+}
+
+.img9 {
+  top: 5%;
+  left: 85%;
+}
+
+.img10 {
+  top: 3%;
+  left: 77%;
+}
+
+.img11 {
+  top: 5%;
+  left: 85%;
+}
+
+.img12 {
+  top: 3%;
+  left: 94%;
+}
+.img13 {
+  top: 9%;
+  left: 15%;
+}
+
+.img14 {
+  top: 15%;
+  left: 82%;
+}
+
+.img15 {
+  top: 15%;
+  left: 92%;
+}
+
+.img16 {
+  top: 15%;
+  left: 75%;
+}
+
+.img17 {
+  top: 26%;
+  left: 80%;
+}
+
+.img18 {
+  top: 13%;
+  left: 2%;
+}
+
+.img19 {
+  top: 0%;
+  left: 20%;
+}
+
+.img20 {
+  top: 30%;
+  left: 20%;
+}
+
+.img21 {
+  top: 15%;
+  left: 20%;
+}
+
+.img22 {
+  top: 35%;
+  left: 76%;
+}
+
+.img23 {
+  top: 35%;
+  left: 6%;
+}
+
+.img24 {
+  top: 38%;
+  left: 13%;
+}
+
+.img25 {
+  top: 41%;
+  left: 20%;
+}
+
+.img26 {
+  top: 30%;
+  left: 0%;
+}
+
+.img27 {
+  top: 43%;
+  left: 0%;
+}
+
+.img28 {
+  top: 43%;
+  left: 90%;
+}
+
+.img29 {
+  top: 47%;
+  left: 6%;
+}
+
+.img30 {
+  top: 34%;
+  left: 95%;
+}
+
+.img31 {
+  top: 54%;
+  left: 90%;
+}
+
+.img32 {
+  top: 47%;
+  left: 80%;
+}
+
+.img33 {
+  top: 57%;
+  left: 77%;
+}
+
+.img34 {
+  top: 60%;
+  left: 84%;
+}
+
+.img35 {
+  top: 50%;
+  left: 15%;
+}
+
+.img36 {
+  top: 50%;
+  left: 95%;
+}
+
+.img37 {
+  top: 63%;
+  left: 95%;
+}
+
+.img38 {
+  top: 55%;
+  left: 0%;
+}
+
+.img39 {
+  top: 70%;
+  left: 90%;
+}
+
+.img40 {
+  top: 58%;
+  left: 10%;
+}
+
+.img41 {
+  top: 62%;
+  left: 17%;
+}
+
+.img42 {
+  top: 70%;
+  left: 79%;
+}
+
+.img43 {
+  top: 75%;
+  left: 85%;
+}
+
+.img44 {
+  top: 64%;
+  left: 5%;
+}
+
+.img45 {
+  top: 80%;
+  left: 78%;
+}
+
+.img46 {
+  top: 70%;
+  left: 12%;
+}
+
+.img47 {
+  top: 78%;
+  left: 92%;
+}
+
+.img48 {
+  top: 78%;
+  left: 2%;
+}
+
+.img49 {
+  top: 75%;
+  left: 20%;
+}
+
+.img50 {
+  top: 79%;
+  left: 10%;
+}
+
+.img51 {
+  top: 87%;
+  left: 87%;
+}
+
+.img52 {
+  top: 87%;
+  left: 7%;
+}
+
+.img53 {
+  top: 90%;
+  left: 78%;
+}
+
+.img54 {
+  top: 87%;
+  left: 18%;
+}
+
+.img55 {
+  top: 90%;
+  left: 95%;
+}
+
+.img56 {
+  top: 90%;
+  left: 1%;
 }
 
 .container1 {
