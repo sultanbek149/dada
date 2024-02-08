@@ -314,7 +314,7 @@ video {
 }
 
 .container {
-  margin: auto;
+  margin-inline: auto;
   position: relative;
   z-index: 1;
   background-color: #000;
@@ -459,6 +459,7 @@ h2 {
 .cont {
   padding-bottom: 120px;
   position: relative;
+  overflow: hidden;
 }
 
 .img {
@@ -746,13 +747,14 @@ h2 {
 
 .container1 {
   max-width: 736px;
+  margin-inline: auto;
 }
 
 .container2 {
   padding-bottom: 70px;
 }
 
-.container2 > *:not(.socials, .title) {
+.container2 > *:not(.socials, .title, .ca) {
   max-width: 736px;
   margin-inline: auto;
 }
@@ -808,6 +810,7 @@ h3.title {
   font-size: 36px;
   text-align: center;
   margin-bottom: 72px;
+  word-wrap: break-word;
 }
 
 .socials {
